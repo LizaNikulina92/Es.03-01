@@ -1,0 +1,9 @@
+body{
+    margin: 50px;
+}
+div{
+    display: flex;
+}
+div p:first-child{
+    margin-right: 5px;
+}
