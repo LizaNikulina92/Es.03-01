@@ -1,9 +1,25 @@
 body{
-    margin: 50px;
+    margin: 0;
+    padding: 0;
 }
-div{
+h1, p, strong{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 30%;
+    margin: 50px auto 0;
+}
+.container div{
     display: flex;
+    margin-bottom: 0.5em;
 }
 div p:first-child{
     margin-right: 5px;
+}
+h1{
+    margin-bottom: 1em;
+}
+main div:last-child{
+    margin-top: 0.5em;
 }
